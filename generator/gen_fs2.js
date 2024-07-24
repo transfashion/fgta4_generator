@@ -328,7 +328,7 @@ async function PrepareFile(programpath, fd, overwrite=true) {
 				//------------------------------
 				// disable disini apabila mau testing, tidak bikin file backup
 				if (fs.existsSync(fspath)) {
-					console.log('File Exist');
+					//console.log('File Exist');
 					if (fd.backup_on_overwrite===true && overwrite===true) {
 						process.stdout.write(`Creating backup file `);
 						
