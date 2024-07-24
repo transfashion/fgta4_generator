@@ -1,0 +1,2 @@
+Reset Git Credential
+git config --local credential.helper ""
